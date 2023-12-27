@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatchReadyCheck", "PatchReadyCheck\PatchReadyCheck.vcxproj", "{0E1667D2-D705-4936-B6BB-D21F84BEB20A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateLogfile", "CreateLogfile\CreateLogfile.vcxproj", "{54A33FF0-29B2-4990-8381-8AE6F51D8907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1667D2-D705-4936-B6BB-D21F84BEB20A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E1667D2-D705-4936-B6BB-D21F84BEB20A}.Debug|Win32.Build.0 = Debug|Win32
+		{0E1667D2-D705-4936-B6BB-D21F84BEB20A}.Release|Win32.ActiveCfg = Release|Win32
+		{0E1667D2-D705-4936-B6BB-D21F84BEB20A}.Release|Win32.Build.0 = Release|Win32
+		{54A33FF0-29B2-4990-8381-8AE6F51D8907}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54A33FF0-29B2-4990-8381-8AE6F51D8907}.Debug|Win32.Build.0 = Debug|Win32
+		{54A33FF0-29B2-4990-8381-8AE6F51D8907}.Release|Win32.ActiveCfg = Release|Win32
+		{54A33FF0-29B2-4990-8381-8AE6F51D8907}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

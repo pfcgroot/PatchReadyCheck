@@ -1,1 +1,7 @@
-# PatchReadyCheck
+# PatchReadyCheck - Patch Monitor utility for Philips MR scanners
+PatchMonitor is a small utility that can be installed on the taskbar off a Philips MR console to monitor the patch installation status.
+
+One of the problems on Philips MR systems, is that it's not easy for users to check if a scannerpatch is installed when the scanner console is operating under a nonservice account. This could cause problems when a scanner is used in a heterogeneous environment, where MRItechnicians and researchers install or remove patches rather frequently. The SmartPatch utility is a small utility that monitors  the patchdirectory (G:\Site\Patches) for a file called scanner.exe. When such a file exists, the utility collects some information about the patch, and stores this in a status file (E:\Export\patchstatus.txt). This file is then used to show the patchstatus when the Patch folder cannot be checked directly (i.e. under the regular console MRUser account).
+
+Installation
+Just copy the executable (incl. required DLL's) to a folder on teh scanner console PC in a folder that is accessible by all accounts (i.e .E:\Export\SmartPatch). Then create a shortcut to the patchmonitor.exe in the StartUp folder of the start menu. Create such a shortcut for all user accounts that should start the tool automatically. (Including the account that is used to install patches.)  The utility will then automatically create a status file that is used to store the patch info for regular users that cannot access the patch folder itself.
